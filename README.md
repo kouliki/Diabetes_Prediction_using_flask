@@ -1,0 +1,1 @@
+Welcome to the Diabetes Prediction Project! This repository contains code and resources for building a machine learning model to predict diabetes based on health data. This README provides an overview of the project, its setup, and usage instructions.
