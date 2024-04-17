@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diabetes Prediction </title>
+</head>
+<body>
+    {% if result %}
+        <p>{{ result }}</p>
+    {% endif %}
+
+    <h1>Diabetes Prediction</h1>
+    <form method="post" action="/outcome">
+        <label>PREGNANCIES</label><br>
+        <input type="text" name="Pregnancies"><br><br>
+
+        <label>GLUCOSE</label><br>
+        <input type="text" name="Glucose"><br><br>
+
+        <label>BLOOD PRESSURE</label><br>
+        <input type="text" name="BloodPressure"><br><br>
+
+        <label>SKIN THICKNESS</label><br>
+        <input type="text" name="SkinThickness"><br><br>
+
+        <label>INSULIN</label><br>
+        <input type="text" name="Insulin"><br><br>
+
+        <label>BMI</label><br>
+        <input type="text" name="BMI"><br><br>
+
+        <label>DIABETES PEDIGREE FUNCTION</label><br>
+        <input type="text" name="DiabetesPedigreeFunction"><br><br>
+
+        <label>AGE</label><br>
+        <input type="text" name="Age"><br><br>
+
+
+
+        <input type="submit" value="Outcome"><br><br>
+    </form>
+</body>
+</html>
